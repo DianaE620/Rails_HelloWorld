@@ -5,9 +5,9 @@ Rails.application.routes.draw do
 
   #In the present case, the controller name is application and the action name is hello, 
 
-  #root 'application#hello'
+  root 'application#hello'
 
-  root 'application#goodbye'
+  #root 'application#goodbye'
 
 
 
