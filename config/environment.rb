@@ -5,6 +5,4 @@ require File.expand_path('../application', __FILE__)
 Rails.application.initialize!
 
 
-group :production do
-  gem 'pg', '0.18.4'
-end
+
